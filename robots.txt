@@ -1,0 +1,11 @@
+# robots.txt for Criminal Investigation Request Documentation
+
+# Allow all legitimate search engines to index this important documentation
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://opusmax422-dot.github.io/criminal-investigation-request/sitemap.xml
+
+# Note: This documentation should be publicly accessible for transparency
+# and to ensure widespread availability of this criminal investigation request
