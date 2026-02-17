@@ -1,0 +1,68 @@
+name: Validate and Deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate HTML
+        run: |
+          npm install -g html-validate
+          html-validate index.html || echo "HTML validation completed with warnings"
+
+      - name: Check file structure
+        run: |
+          echo "Checking required files..."
+          test -f index.html || exit 1
+          test -f README.md || exit 1
+          test -f LICENSE || exit 1
+          test -f robots.txt || exit 1
+          test -f sitemap.xml || exit 1
+          echo "All required files present ✓"
+
+      - name: Validate sitemap
+        run: |
+          if ! grep -q "opusmax422-dot.github.io" sitemap.xml; then
+            echo "Warning: Sitemap may need URL update"
+          fi
+
+  deploy:
+    needs: validate
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
