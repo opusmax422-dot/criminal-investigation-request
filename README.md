@@ -1,10 +1,22 @@
 # Criminal Investigation Request - Standalone Documentation
 
+[![HTML Validation](https://github.com/opusmax422-dot/criminal-investigation-request/actions/workflows/html-validation.yml/badge.svg)](https://github.com/opusmax422-dot/criminal-investigation-request/actions/workflows/html-validation.yml)
+[![Pages Build](https://github.com/opusmax422-dot/criminal-investigation-request/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/opusmax422-dot/criminal-investigation-request/actions/workflows/pages/pages-build-deployment)
+[![License](https://img.shields.io/badge/License-Public%20Domain-blue.svg)](LICENSE)
+
 **21-Year Cross-Border Operation | Attempted Murder | Evidence Destruction**
 
 ## 🚨 Live Documentation
 
 **URL:** https://opusmax422-dot.github.io/criminal-investigation-request/
+
+## Project Status
+
+- ✅ Documentation live and deployed
+- ✅ All evidence links functional
+- ✅ Offline capability working
+- ✅ Print layout optimized
+- ✅ Mobile responsive
 
 ## Overview
 
@@ -61,9 +73,43 @@ The HTML file includes:
 - LocalStorage logging of blocked evidence sources  
 - Print-optimized styling
 
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+### Quick Links
+
+- [Issue Templates](.github/ISSUE_TEMPLATE/) - Report bugs or request features
+- [Pull Request Template](.github/pull_request_template.md) - Submit changes
+- [Changelog](CHANGELOG.md) - Track project changes
+
+## Development
+
+### Testing Locally
+
+1. Clone the repository
+2. Open `index.html` in a web browser
+3. Test in multiple browsers (Chrome, Firefox, Safari)
+4. Verify mobile responsiveness
+5. Test offline functionality
+6. Check print layout
+
+### Validation
+
+All HTML changes are automatically validated through GitHub Actions. The workflow checks:
+
+- HTML5 validity
+- Link structure
+- Evidence failover system
+- Syntax errors
+
 ## Legal Notice
 
 This is a formal request for criminal investigation supported by documented evidence. All claims are backed by original court documents, police disclosures, and verifiable records.
+
+## Version History
+
+See [CHANGELOG.md](CHANGELOG.md) for a complete history of changes and releases.
 
 ---
 
