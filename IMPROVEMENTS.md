@@ -148,7 +148,7 @@ When this PR is merged:
 - CHANGELOG.md (39 lines)
 - CONTRIBUTING.md (203 lines)
 - LICENSE (9 lines)
-- check-status.sh (104 lines, executable)
+- check-status.sh (96 lines, executable)
 - .github/pull_request_template.md (62 lines)
 - .github/ISSUE_TEMPLATE/bug_report.md (43 lines)
 - .github/ISSUE_TEMPLATE/feature_request.md (42 lines)
