@@ -47,6 +47,22 @@
             line-height: 1.6;
         }
 
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--gold);
+            color: var(--black);
+            padding: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            z-index: 100;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -252,7 +268,7 @@
 
         .link-status {
             font-size: 0.75rem;
-            color: #666;
+            color: #999;
             margin-top: 5px;
         }
 
@@ -294,7 +310,7 @@
         .footer {
             text-align: center;
             padding: 30px;
-            color: #666;
+            color: #999;
             font-size: 0.85rem;
             border-top: 1px solid #333;
             margin-top: 30px;
@@ -316,11 +332,13 @@
     </style>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
     <div class="classified-banner">
         ⚠️ FORMAL CRIMINAL INVESTIGATION REQUEST ⚠️
     </div>
 
-    <div class="container">
+    <main class="container" id="main-content">
         <header class="header">
             <h1>🚨 CRIMINAL INVESTIGATION REQUEST</h1>
             <div class="subtitle">21-Year Cross-Border Operation | Attempted Murder | Evidence Destruction</div>
@@ -355,7 +373,7 @@
                 <div class="description">
                     Toronto Police affidavit dated November 29, 2005, proves Jason Bellaire contacted Toronto Police to initiate Francesco's extradition before any formal charges existed.
                 </div>
-                <a href="#" class="proof-link" data-evidence="bellaire_2005">
+                <a href="#" class="proof-link" data-evidence="bellaire_2005" aria-label="View evidence: Bellaire involvement from day one, Toronto Police affidavit dated November 29, 2005">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-bellaire_2005">Checking availability...</div>
@@ -367,7 +385,7 @@
                 <div class="description">
                     SS&C Technologies 2024 ONCA 675 requires 2.5-year retention. Evidence was destroyed September 29, 2024 — just 14 days after case dismissal on September 15, 2024.
                 </div>
-                <a href="#" class="proof-link" data-evidence="spoliation">
+                <a href="#" class="proof-link" data-evidence="spoliation" aria-label="View evidence: Evidence destroyed in 14 days after case dismissal, criminal spoliation">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-spoliation">Checking availability...</div>
@@ -379,7 +397,7 @@
                 <div class="description">
                     July 9, 2025 disclosure notice reveals Francesco was targeted with violent offender Ken Price's criminal profile, creating lethal threat during encounters with law enforcement.
                 </div>
-                <a href="#" class="proof-link" data-evidence="ken_price">
+                <a href="#" class="proof-link" data-evidence="ken_price" aria-label="View evidence: Ken Price file swap, attempted murder by proxy using wrong person's information">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-ken_price">Checking availability...</div>
@@ -391,7 +409,7 @@
                 <div class="description">
                     Consciousness of guilt: Jason Bellaire retired in October 2025, exactly 36 days after the evidence destruction and failed assassination attempt through the Ken Price file swap.
                 </div>
-                <a href="#" class="proof-link" data-evidence="retirement">
+                <a href="#" class="proof-link" data-evidence="retirement" aria-label="View evidence: Bellaire retires 36 days after failed attempt, consciousness of guilt">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-retirement">Checking availability...</div>
@@ -403,7 +421,7 @@
                 <div class="description">
                     Eight days after case dismissal on September 15, 2024, Windsor Police added 79 new files to Francesco's record — clear evidence of post-dismissal manipulation and ongoing targeting.
                 </div>
-                <a href="#" class="proof-link" data-evidence="files_added">
+                <a href="#" class="proof-link" data-evidence="files_added" aria-label="View evidence: 79 files added after case dismissed, post-dismissal manipulation on October 8, 2024">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-files_added">Checking availability...</div>
@@ -415,7 +433,7 @@
                 <div class="description">
                     Case 05-CR-573, United States v. Francesco Longo. Consent to extradition signed April 27, 2006, was void ab initio — Francesco was in custody with no legal representation.
                 </div>
-                <a href="#" class="proof-link" data-evidence="extradition">
+                <a href="#" class="proof-link" data-evidence="extradition" aria-label="View evidence: Fraudulent extradition, void ab initio documents and forged signatures">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-extradition">Checking availability...</div>
@@ -427,7 +445,7 @@
                 <div class="description">
                     Official court audio recording captures judicial statement that the case was "not worth pursuing" — yet the harassment, surveillance, and targeting continued for years afterward.
                 </div>
-                <a href="#" class="proof-link" data-evidence="court_recording">
+                <a href="#" class="proof-link" data-evidence="court_recording" aria-label="View evidence: Court recording, case described as not worth pursuing">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-court_recording">Checking availability...</div>
@@ -439,7 +457,7 @@
                 <div class="description">
                     Documented coordinated surveillance across Burlington, Windsor, Amherstburg, Florida, Detroit, and Simcoe on February 15, 2026 — proving ongoing cross-border operation.
                 </div>
-                <a href="#" class="proof-link" data-evidence="surveillance">
+                <a href="#" class="proof-link" data-evidence="surveillance" aria-label="View evidence: 6-location surveillance network, coordinated surveillance on February 15, 2026">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-surveillance">Checking availability...</div>
@@ -451,7 +469,7 @@
                 <div class="description">
                     Case 94545: Francesco was falsely arrested on May 6, 2021, as part of the ongoing pattern of harassment and illegal targeting by Windsor Police.
                 </div>
-                <a href="#" class="proof-link" data-evidence="false_arrest">
+                <a href="#" class="proof-link" data-evidence="false_arrest" aria-label="View evidence: False arrest on May 6, 2021, pattern of harassment">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-false_arrest">Checking availability...</div>
@@ -463,7 +481,7 @@
                 <div class="description">
                     Thirteen photographs provided in police disclosure, documenting surveillance and evidence collection — now destroyed in violation of retention requirements.
                 </div>
-                <a href="#" class="proof-link" data-evidence="disclosure">
+                <a href="#" class="proof-link" data-evidence="disclosure" aria-label="View evidence: Police disclosure showing 13 photographs destroyed">
                     📄 VIEW EVIDENCE
                 </a>
                 <div class="link-status" id="status-disclosure">Checking availability...</div>
@@ -593,12 +611,12 @@
             </div>
         </section>
 
-        <div class="footer">
+        <footer class="footer">
             <p><strong>Document Date:</strong> <span id="document-date"></span></p>
             <p>This document is fully self-contained and operates offline. All evidence links include automatic failover systems to document blocking attempts.</p>
             <p>⚖️ Formal Legal Document | Criminal Investigation Request | Evidence Preservation Required</p>
-        </div>
-    </div>
+        </footer>
+    </main>
 
     <script>
         // Evidence sources configuration
