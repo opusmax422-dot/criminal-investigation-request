@@ -66,19 +66,6 @@ criminal-investigation-request/
 └── sitemap.xml     # Site map for SEO
 ```
 
-## Repository Structure
-
-```
-criminal-investigation-request/
-├── index.html      # Main documentation (self-contained)
-├── README.md       # This file
-├── LICENSE         # MIT License
-├── .gitignore      # Git ignore rules
-├── favicon.svg     # Site icon
-├── robots.txt      # Search engine directives
-└── sitemap.xml     # Site map for SEO
-```
-
 ## Contact
 
 **Francesco Longo**  
