@@ -37,6 +37,47 @@ This repository contains a self-contained HTML document presenting a formal crim
 ✅ **Evidence failover** - Triple redundancy system  
 ✅ **Print-ready** - Professional legal document formatting  
 ✅ **Access logging** - Tracks evidence link blocking  
+✅ **SEO optimized** - Comprehensive meta tags for search engines  
+✅ **Accessible** - WCAG-compliant with ARIA labels and semantic HTML  
+✅ **Social media ready** - Open Graph and Twitter card support  
+
+## Technical Details
+
+The HTML file includes:  
+- Embedded CSS with responsive design  
+- JavaScript evidence failover system (primary → mirror1 → mirror2 → mirror3)  
+- LocalStorage logging of blocked evidence sources  
+- Print-optimized styling
+- SEO meta tags (description, keywords, Open Graph, Twitter cards)
+- Accessibility features (ARIA labels, skip links, semantic HTML)
+- Favicon for brand recognition
+- robots.txt and sitemap.xml for search engines
+
+## Repository Structure
+
+```
+criminal-investigation-request/
+├── index.html      # Main documentation (self-contained)
+├── README.md       # This file
+├── LICENSE         # MIT License
+├── .gitignore      # Git ignore rules
+├── favicon.svg     # Site icon
+├── robots.txt      # Search engine directives
+└── sitemap.xml     # Site map for SEO
+```
+
+## Repository Structure
+
+```
+criminal-investigation-request/
+├── index.html      # Main documentation (self-contained)
+├── README.md       # This file
+├── LICENSE         # MIT License
+├── .gitignore      # Git ignore rules
+├── favicon.svg     # Site icon
+├── robots.txt      # Search engine directives
+└── sitemap.xml     # Site map for SEO
+```
 
 ## Contact
 
@@ -53,17 +94,13 @@ This document is intended for:
 - Legal representatives  
 - Government oversight bodies
 
-## Technical Details
-
-The HTML file includes:  
-- Embedded CSS with responsive design  
-- JavaScript evidence failover system (primary → mirror1 → mirror2 → mirror3)  
-- LocalStorage logging of blocked evidence sources  
-- Print-optimized styling
-
 ## Legal Notice
 
 This is a formal request for criminal investigation supported by documented evidence. All claims are backed by original court documents, police disclosures, and verifiable records.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
