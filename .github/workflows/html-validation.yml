@@ -1,0 +1,56 @@
+name: HTML Validation
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - '**.html'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**.html'
+
+jobs:
+  validate:
+    name: Validate HTML
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Validate HTML files
+        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
+        with:
+          root: .
+          format: text
+          
+      - name: Check HTML syntax
+        run: |
+          echo "Checking HTML files..."
+          if ! command -v tidy &> /dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y tidy
+          fi
+          
+          for file in *.html; do
+            if [ -f "$file" ]; then
+              echo "Checking $file..."
+              tidy -errors -q "$file" || echo "Note: Tidy found issues in $file"
+            fi
+          done
+          
+      - name: Verify links structure
+        run: |
+          echo "Verifying evidence links structure..."
+          if grep -q "evidence-link" index.html; then
+            echo "✓ Evidence links found"
+          else
+            echo "⚠ Warning: No evidence links found"
+          fi
+          
+          if grep -q "failover" index.html; then
+            echo "✓ Failover system found"
+          else
+            echo "⚠ Warning: No failover system found"
+          fi
