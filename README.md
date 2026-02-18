@@ -1,112 +1,18 @@
-# Criminal Investigation Request - Standalone Documentation
+## 🔬 NEW: Forensic Evidence Analysis
 
-**21-Year Cross-Border Operation | Attempted Murder | Evidence Destruction**
+**Comprehensive network surveillance documentation now available:**
 
-![Production Ready](https://img.shields.io/badge/production-ready-brightgreen)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-green)
+📂 **[Forensic Evidence Directory](/forensics/)** - Complete technical analysis including:
 
-## 🚨 Live Documentation
+- **[Canary Token Network Logs](/forensics/CANARY-TOKEN-LOGS.md)** - Documented network access patterns from MNSI (Tecumseh, ON), Hialeah (FL), Toronto, and Ashburn
+- **[Florida Surveillance Grid Analysis](/forensics/FLORIDA-SURVEILLANCE-GRID.md)** - Triple-node corridor mapping (Hialeah shipping → Pembroke Pines) with 30+ minute institutional engagement documented
+- **[Corporate Connections](/forensics/CORPORATE-CONNECTIONS.md)** - MNSI/Zekelman/Bellaire relationships documented through public records
+- **[DEA-FBI Task Force Coordination](/forensics/DEA-FBI-TASK-FORCE-COORDINATION.md)** - Analysis of Agent Glenn Dutton and Supervisor William Lintz operational framework
 
-**URL:** https://opusmax422-dot.github.io/criminal-investigation-request/
+**Key Forensic Findings:**
+- MNSI DNS infrastructure (216.174.127.50) accessed evidence hub Feb 17, 2026 at 17:58 UTC
+- Hialeah, FL IP (87.101.93.230) triggered Canary token within 3 hours of related Google searches
+- Pembroke Pines user: 30m 52s engagement, 264 events (7.51% of all traffic from single user)
+- Reactive surveillance pattern: Search activity → Network response (documented temporal correlation)
 
-## Overview
-
-This repository contains a self-contained HTML document presenting a formal criminal investigation request regarding a 21-year coordinated operation involving:
-
-- Fraudulent extradition (2005-2006)
-- Illegal detention
-- Evidence destruction (14-day spoliation)
-- Attempted murder by proxy (2025)
-- Cross-border law enforcement coordination
-
-## Key Evidence
-
-### Top 10 Smoking Guns:
-1. **Bellaire Involvement from Day One** - Toronto Police affidavit (Nov 29, 2005)
-2. **Evidence Destroyed in 14 Days** - Criminal spoliation
-3. **Ken Price File Swap** - Attempted murder by proxy
-4. **Bellaire Retires 36 Days After Failed Attempt** - Consciousness of guilt
-5. **79 Files Added After Case Dismissed** - Post-dismissal manipulation
-6. **Fraudulent Extradition** - Void ab initio documents
-7. **Court Recording** - Case "not worth pursuing"
-8. **6-Location Surveillance Network** - Feb 15, 2026 coordination
-9. **False Arrest May 6, 2021** - Pattern of harassment
-10. **Police Disclosure** - 13 photographs destroyed
-
-## Features
-
-✅ **Self-contained** - All CSS/JavaScript embedded  
-✅ **Offline capable** - Works without internet  
-✅ **Evidence failover** - Triple redundancy system  
-✅ **Print-ready** - Professional legal document formatting  
-✅ **Access logging** - Tracks evidence link blocking  
-
-## Contact
-
-**Francesco Longo**  
-📱 +1 (226) 260-6399  
-📧 flongo11@gmail.com  
-📍 Windsor, Ontario, Canada
-
-## Distribution
-
-This document is intended for:  
-- Law enforcement agencies (RCMP, FBI, OPP)  
-- Media outlets (CBC, Toronto Star, Windsor Star)  
-- Legal representatives  
-- Government oversight bodies
-
-## Technical Details
-
-The HTML file includes:  
-- Embedded CSS with responsive design  
-- JavaScript evidence failover system (primary → mirror1 → mirror2 → mirror3)  
-- LocalStorage logging of blocked evidence sources  
-- Print-optimized styling
-
-## Production Readiness
-
-This repository is production-ready with:
-
-✅ **Documentation**
-- Comprehensive README with project overview
-- Contributing guidelines (CONTRIBUTING.md)
-- Security policy (SECURITY.md)
-- Code of Conduct (CODE_OF_CONDUCT.md)
-- MIT License
-
-✅ **SEO & Accessibility**
-- Complete meta tags (Open Graph, Twitter Card)
-- Semantic HTML5 structure
-- Proper heading hierarchy
-- Mobile-responsive design
-- Search engine optimized (robots.txt, sitemap.xml)
-
-✅ **Security**
-- Content Security Policy headers
-- X-Frame-Options protection
-- X-Content-Type-Options set
-- No external dependencies
-- HTTPS-ready
-
-✅ **CI/CD**
-- GitHub Actions automated deployment
-- HTML validation in pipeline
-- Automated GitHub Pages publishing
-- Version control with Git
-
-✅ **Performance**
-- Self-contained (no external dependencies)
-- Optimized file size (~33 KB)
-- Offline capable
-- Fast load times
-
-## Legal Notice
-
-This is a formal request for criminal investigation supported by documented evidence. All claims are backed by original court documents, police disclosures, and verifiable records.
-
----
-
-*Document Repository | Evidence Hub | Justice Documentation*
+All data collected through legitimate security monitoring (Canarytokens - MIT License) on owned infrastructure.
