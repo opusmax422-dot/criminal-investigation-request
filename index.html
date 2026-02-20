@@ -619,19 +619,21 @@
                 day: 'numeric'
             });
 
-            // Route all evidence buttons safely to the forensics landing page.
-            // No external URLs or local file:/// paths are opened.
+            // Safety override: intercept all evidence button clicks and route to the
+            // forensics landing page only. No external or local file:/// URLs are opened.
             document.querySelectorAll('.proof-link').forEach(function(link) {
-                link.setAttribute('href', FORENSICS_URL);
-                link.setAttribute('target', '_blank');
-                link.setAttribute('rel', 'noopener noreferrer');
-                link.removeAttribute('data-evidence');
-            });
-
-            // Update status text for all evidence blocks
-            document.querySelectorAll('[id^="status-"]').forEach(function(el) {
-                el.textContent = '⏳ Evidence links consolidated at /forensics/ — redacted exports will be added there';
-                el.className = 'link-status';
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    var key = link.getAttribute('data-evidence');
+                    if (key) {
+                        var statusEl = document.getElementById('status-' + key);
+                        if (statusEl) {
+                            statusEl.textContent = `Evidence is temporarily consolidated here: ${FORENSICS_URL}`;
+                            statusEl.className = 'link-status failover';
+                        }
+                    }
+                    window.open(FORENSICS_URL, '_blank', 'noopener,noreferrer');
+                });
             });
 
             console.log('%c🚨 Criminal Investigation Request Document Loaded', 'color: #dc2626; font-size: 16px; font-weight: bold;');
