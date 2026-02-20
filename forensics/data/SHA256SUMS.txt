@@ -1,0 +1,18 @@
+# SHA-256 Checksums
+#
+# This file will be populated after the redacted CSV exports are published.
+# Each line will follow the format:
+#
+#   <sha256hex>  <filename>
+#
+# Example (placeholder — not a real checksum):
+#
+#   e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  canarytoken_log_REDACTED_2026-02-17_to_2026-02-20.csv
+#   e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  webhook_log_REDACTED_2026-02-20.csv
+#
+# To verify a file after download, run:
+#
+#   sha256sum -c SHA256SUMS.txt        # Linux / macOS (with coreutils)
+#   Get-FileHash <file> -Algorithm SHA256  # Windows PowerShell
+#
+# This file is itself a placeholder and will be replaced once the data files are ready.
