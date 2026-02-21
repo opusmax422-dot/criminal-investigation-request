@@ -627,10 +627,22 @@
     function enforceForensicsRouting() {
       // Update each evidence button into a normal safe link
       document.querySelectorAll('.proof-link').forEach(function (link) {
+        var evidenceKey = link.getAttribute('data-evidence') || 'unknown';
         link.href = FORENSICS_URL;
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
         link.removeAttribute('data-evidence');
+        if (!link.dataset.gaTracked) {
+          link.dataset.gaTracked = '1';
+          link.addEventListener('click', function () {
+            if (typeof window.gtag === 'function') {
+              window.gtag('event', 'evidence_click', {
+                evidence_key: evidenceKey,
+                destination: FORENSICS_URL
+              });
+            }
+          });
+        }
       });
 
       // Update all status elements
