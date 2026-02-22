@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Bypass Routing Guide | Francesco Longo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2a 100%);
+            color: #e8e8e8;
+            line-height: 1.7;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        .header {
+            text-align: center;
+            padding: 30px;
+            background: rgba(147, 51, 234, 0.2);
+            border: 2px solid #9333ea;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        .header h1 { color: #9333ea; font-size: 2em; margin-bottom: 10px; }
+        .header p { color: #a78bfa; }
+        .alert-box {
+            background: linear-gradient(135deg, #1a0505, #2d0a0a);
+            border: 2px solid #dc2626;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .alert-box h3 { color: #dc2626; margin-bottom: 10px; }
+        h2 {
+            color: #22c55e;
+            font-size: 1.5em;
+            margin: 30px 0 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #22c55e;
+        }
+        .option-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0;
+        }
+        .option-card h3 { color: #fbbf24; margin-bottom: 15px; font-size: 1.3em; }
+        .option-card.recommended { border-color: #22c55e; background: rgba(34, 197, 94, 0.1); }
+        .step {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-left: 3px solid #22c55e;
+        }
+        .step-number {
+            display: inline-block;
+            background: #22c55e;
+            color: #000;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        ul { margin: 15px 0 15px 25px; }
+        li { margin: 8px 0; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background: #9333ea; color: white; padding: 12px; text-align: left; }
+        td { padding: 12px; border-bottom: 1px solid #333; }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .btn-primary { background: #9333ea; color: white; }
+        .btn-success { background: #22c55e; color: white; }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 1px solid #333;
+            color: #666;
+        }
+        .footer a { color: #9333ea; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="header">
+        <h1>Email Bypass Routing Guide</h1>
+        <p>Circumventing ISP-Level Email Blocking</p>
+        <p style="margin-top: 10px; font-size: 0.9em; color: #888;">PUBLIC RELEASE — TRACKING-FREE VERSION</p>
+    </div>
+    
+    <div class="alert-box">
+        <h3>THE PROBLEM</h3>
+        <p>Emails containing certain keywords are being intercepted before delivery. Documented symptoms:</p>
+        <ul>
+            <li>30+ bounces when specific keywords used</li>
+            <li>Greylisting and keyword triggers</li>
+            <li>ISP chokepoints (Cogeco/Bell/Rogers)</li>
+        </ul>
+    </div>
+    
+    <h2>SOLUTION OPTIONS</h2>
+    
+    <div class="option-card recommended">
+        <h3>Option 1: European VPN + EU Email (RECOMMENDED)</h3>
+        <p>Route through non-Five Eyes jurisdiction for maximum bypass.</p>
+        
+        <div class="step">
+            <span class="step-number">1</span>
+            <strong>Install Mullvad VPN</strong> — Sweden server, no-logs policy
+        </div>
+        
+        <div class="step">
+            <span class="step-number">2</span>
+            <strong>Create ProtonMail account</strong> — Swiss jurisdiction
+        </div>
+        
+        <div class="step">
+            <span class="step-number">3</span>
+            <strong>Connect to Sweden server</strong> — enable obfuscation
+        </div>
+        
+        <div class="step">
+            <span class="step-number">4</span>
+            <strong>Send email via ProtonMail</strong> — bypasses Canadian ISPs
+        </div>
+    </div>
+    
+    <div class="option-card">
+        <h3>Option 2: Small Canadian ISPs + EU Email</h3>
+        <p>Use independent ISPs that don't participate in coordinated blocking.</p>
+        <ul>
+            <li><strong>TekSavvy</strong> — privacy-focused</li>
+            <li><strong>Distributel</strong></li>
+            <li><strong>Start.ca</strong></li>
+        </ul>
+        <p style="margin-top: 15px;">Combine with EU email: ProtonMail, Tutanota, Mailbox.org</p>
+    </div>
+    
+    <div class="option-card">
+        <h3>Option 3: Tor (Maximum Anonymity)</h3>
+        <p>Route through Tor network with EU exit nodes.</p>
+        <ul>
+            <li><strong>Android:</strong> Install Orbot, enable VPN mode</li>
+            <li><strong>Desktop:</strong> Use Tor Browser</li>
+            <li>Access ProtonMail through Tor</li>
+        </ul>
+        <p style="margin-top: 10px; color: #fbbf24;">Note: Slower but most anonymous option</p>
+    </div>
+    
+    <h2>SECURITY DO'S AND DON'TS</h2>
+    
+    <table>
+        <tr>
+            <th style="background: #22c55e;">DO</th>
+            <th style="background: #dc2626;">DON'T</th>
+        </tr>
+        <tr>
+            <td>Use Mullvad (no logs)</td>
+            <td>Use free VPNs (data harvesting)</td>
+        </tr>
+        <tr>
+            <td>Use ProtonMail (Swiss)</td>
+            <td>Use NordVPN/ExpressVPN (Five Eyes)</td>
+        </tr>
+        <tr>
+            <td>Enable 2FA everywhere</td>
+            <td>Send from compromised devices</td>
+        </tr>
+        <tr>
+            <td>Test with non-sensitive content first</td>
+            <td>Discuss bypass methods on monitored channels</td>
+        </tr>
+    </table>
+    
+    <h2>LEGAL BASIS</h2>
+    
+    <div class="option-card">
+        <ul>
+            <li><strong>Criminal Code s.184:</strong> Interception of private communications is illegal</li>
+            <li><strong>Criminal Code s.342.1:</strong> Unauthorized interference with computer services</li>
+            <li><strong>Charter s.2(b):</strong> Freedom of expression</li>
+        </ul>
+        <p style="margin-top: 15px; color: #888;">Blocking legitimate communications without warrant may constitute criminal interference.</p>
+    </div>
+    
+    <h2>BOTTOM LINE</h2>
+    
+    <div class="alert-box" style="border-color: #22c55e; background: linear-gradient(135deg, #0d1a0d, #1a2d1a); text-align: center;">
+        <p style="font-size: 1.2em;"><strong>Route email through European servers</strong></p>
+        <p>Mullvad VPN + ProtonMail = Bypasses Canadian/US chokepoints</p>
+        <p style="margin-top: 15px; color: #22c55e;"><strong>Test today. Deploy tomorrow.</strong></p>
+    </div>
+    
+    <div style="text-align: center; margin: 30px 0;">
+        <a href="https://mullvad.net" class="btn btn-primary">Get Mullvad</a>
+        <a href="https://protonmail.com" class="btn btn-success">Get ProtonMail</a>
+        <a href="https://www.torproject.org" class="btn btn-primary">Get Tor</a>
+    </div>
+    
+    <div class="footer">
+        <p><strong>Contact:</strong> <a href="mailto:flongo11@gmail.com">flongo11@gmail.com</a> | +1 (226) 260-6399</p>
+        <p><a href="https://nxffhryi.gensparkspace.com">Evidence Hub</a></p>
+        <p style="margin-top: 15px; font-size: 0.85em;">February 2026 | PUBLIC RELEASE — TRACKING-FREE</p>
+    </div>
+    
+</div>
+
+</body>
+</html>
