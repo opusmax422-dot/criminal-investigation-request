@@ -1,0 +1,13 @@
+uuid_short,date,ip_masked,country,region,city,isp_category,user_agent_type,page_accessed,significance_level,notes
+cc9259a9,2026-02-15,45.78.xxx.xxx,Canada,Ontario,Burlington,Business Static,Desktop Edge,index,CRITICAL,First Burlington surveillance hit
+b8e3a9ab,2026-02-15,45.78.xxx.xxx,Canada,Ontario,Burlington,Business Static,Desktop Edge,fingerprint,CRITICAL,Burlington fingerprint capture
+50b87ad1,2026-02-15,45.78.xxx.xxx,Canada,Ontario,Burlington,Business Static,Desktop Edge,clone_detected,CRITICAL,Clone detection triggered
+70f2fa10,2026-02-15,45.78.xxx.xxx,Canada,Ontario,Burlington,Business Static,Desktop Edge,webhook_direct,HIGH,Direct webhook access
+7f01d79a,2026-02-15,2a03:xxxx,United States,Tennessee,Gallatin,Meta/Facebook,Mobile Safari,page,MEDIUM,Facebook data center access
+32b921fc,2026-02-15,2a03:xxxx,United States,Iowa,Altoona,Meta/Facebook,Desktop Chrome,index,MEDIUM,Facebook crawler
+1508b9b7,2026-02-16,4.204.xxx.xxx,Canada,Ontario,Toronto,Microsoft Azure,Desktop Chrome,index,HIGH,Azure cloud access - institutional
+34f5994f,2026-02-16,51.54.xxx.xxx,United States,Texas,San Antonio,DoD/Military,Desktop Chrome,index,CRITICAL,San Antonio DoD node
+072e176b,2026-02-16,51.54.xxx.xxx,United States,Texas,San Antonio,DoD/Military,Desktop Chrome,index,CRITICAL,San Antonio secondary DoD node
+3f652fc8,2026-02-16,62.10.xxx.xxx,United States,Arizona,Phoenix,Government/Intel,Desktop Chrome,index,CRITICAL,Phoenix federal region
+dc9be957,2026-02-16,135.232.xxx.xxx,United States,Virginia,Boydton,Data Center,Desktop Chrome,index,HIGH,Boydton VA data center
+614fb2f1,2026-02-16,74.179.xxx.xxx,United States,Washington,Quincy,Microsoft/Data Center,Mobile Chrome,index,MEDIUM,Quincy WA Microsoft data center
