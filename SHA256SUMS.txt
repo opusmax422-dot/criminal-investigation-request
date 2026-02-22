@@ -1,0 +1,60 @@
+# SHA256SUMS.txt — File Integrity Verification
+# Francesco Longo Evidence Package — Public Release
+# Generated: February 22, 2026
+#
+# This file documents the structure of the evidence package.
+# After cloning, you can regenerate hashes locally to verify integrity.
+
+# ========================================
+# FILES IN THIS PACKAGE
+# ========================================
+
+# Root Files
+README.md
+INDEX.md
+REDACTIONS.md
+SHA256SUMS.txt
+SEALED_ARCHIVE_HASH.txt
+
+# Exhibits (Court-Ready Markdown)
+exhibits/EXHIBIT_A_BURLINGTON_SURVEILLANCE.md
+exhibits/EXHIBIT_B_FIVE_EYES_COORDINATION.md
+exhibits/EXHIBIT_C_EMAIL_INTERCEPTION.md
+exhibits/EXHIBIT_D_SPOLIATION_TIMELINE.md
+exhibits/EXHIBIT_E_APK_TROJAN_ANALYSIS.md
+
+# HTML Files (Clean - No Tracking)
+html/CRIMINAL_INVESTIGATION_REQUEST.html
+html/MASTER_EVIDENCE_SUMMARY.html
+html/EMAIL_BYPASS_ROUTING_GUIDE.html
+
+# Normalized Evidence (Anonymized CSVs)
+normalized_evidence/IP_ATTRIBUTION_TABLE_ANONYMIZED.csv
+normalized_evidence/SURVEILLANCE_ACCESS_LOG_ANONYMIZED.csv
+normalized_evidence/TIMELINE_EVENTS.csv
+
+# ========================================
+# VERIFICATION INSTRUCTIONS
+# ========================================
+#
+# To verify file integrity after download:
+#
+# On Linux/Mac:
+#   find . -type f -name "*.md" -o -name "*.html" -o -name "*.csv" -o -name "*.txt" | xargs sha256sum
+#
+# On Windows (PowerShell):
+#   Get-ChildItem -Recurse -File | Get-FileHash -Algorithm SHA256
+#
+# Compare output with notarized copies for legal proceedings.
+
+# ========================================
+# LEGAL NOTICE
+# ========================================
+#
+# This evidence package is submitted for criminal investigation.
+# Tampering with evidence is a criminal offense under:
+# - Criminal Code s.139 (Obstruction of justice)
+# - Criminal Code s.137 (Fabricating evidence)
+#
+# Original tracked version preserved at:
+# https://nxffhryi.gensparkspace.com
