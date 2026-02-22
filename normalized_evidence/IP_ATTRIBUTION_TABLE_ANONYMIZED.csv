@@ -1,0 +1,10 @@
+ip_masked,location,country_code,region,city,isp_category,entity_attribution,date_first_seen,total_hits,significance,legal_relevance
+45.78.xxx.xxx,Burlington ON,CA,Ontario,Burlington,Business Static,UNKNOWN - Surveillance Node,2026-02-15,107+,CRITICAL - 29.1% of all traffic,Primary surveillance target; 75km from Windsor
+216.8.xxx.xxx,Windsor ON,CA,Ontario,Windsor,Residential ADSL,CORPORATE CONNECTION,2026-02-15,3+,HIGH - Appeared after Burlington silent,Corporate network; appeared 37 min after Burlington IP silence
+51.54.xxx.xxx,San Antonio TX,US,Texas,San Antonio,DoD/Military,DoD NETWORK,2026-02-16,41+,CRITICAL - Military surveillance,Government IP range; Five Eyes
+62.10.xxx.xxx,Phoenix AZ,US,Arizona,Phoenix,Government/Intel,GOVERNMENT - Southwest Region,2026-02-16,15+,CRITICAL - Federal connection,Phoenix federal office region
+4.204.xxx.xxx,Toronto ON,CA,Ontario,Toronto,Microsoft Azure,INSTITUTIONAL/GOVERNMENT,2026-02-16,2+,HIGH - Azure Cloud,Surface Pro device; institutional access
+135.232.xxx.xxx,Boydton VA,US,Virginia,Boydton,Data Center,SURVEILLANCE HUB,2026-02-16,2+,HIGH - Data Center,Major VA data center; intelligence proximity
+74.179.xxx.xxx,Quincy WA,US,Washington,Quincy,Microsoft,MICROSOFT DATA CENTER,2026-02-16,2+,MEDIUM - MSFT DC,Quincy Microsoft campus
+2a03:2880:xxxx,Altoona IA,US,Iowa,Altoona,Meta/Facebook,FACEBOOK DATA CENTER,2026-02-15,2+,LOW - Facebook crawler,Content preview service
+2a03:2880:xxxx,Gallatin TN,US,Tennessee,Gallatin,Meta/Facebook,FACEBOOK MOBILE,2026-02-15,2+,LOW - iPhone user,Shared via Facebook
