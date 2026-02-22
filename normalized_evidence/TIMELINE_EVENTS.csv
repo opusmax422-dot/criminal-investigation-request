@@ -1,0 +1,18 @@
+date,event,category,significance,evidence_link,notes
+2005-11-29,Bellaire contacts Toronto Police about Longo,ORIGIN,CRITICAL,https://www.genspark.ai/api/files/s/W1i7rVDO,Documented in Toronto Police affidavit
+2006-04-27,Fraudulent consent to surrender signed,EXTRADITION,CRITICAL,https://www.genspark.ai/api/files/s/1IZIeNCR,Judge Ducharme signature
+2006-05-XX,Extradition to United States,EXTRADITION,CRITICAL,https://www.genspark.ai/api/files/s/COvtbDbQ,Wrong charge - Schedule III vs Schedule I
+2021-05-06,False arrest - mischief charge,ARREST,CRITICAL,https://www.genspark.ai/api/files/s/Kg1qmn5F,Case ID 94545 Occurrence 21-38605
+2022-XX-XX,Bellaire becomes Windsor Police Chief,BELLAIRE,HIGH,N/A,Promotion to leadership
+2025-07-09,File swap discovered - Ken Price,ASSASSINATION,CRITICAL,https://www.genspark.ai/api/files/s/6yYEYdCl,Sex offender file placed in prison record
+2025-07-XX,Ken Price convicted - sexual assault minors,CONNECTED,HIGH,N/A,Windsor Police sergeant
+2025-09-15,Case dismissed - Crown drops charges,DISMISSAL,CRITICAL,https://www.genspark.ai/api/files/s/WJsCFMDa,Crown: case not worthy of pursuing
+2025-09-29,ALL evidence destroyed,SPOLIATION,CRITICAL,https://www.genspark.ai/api/files/s/WFrbhrOJ,14 days vs 2.5-year minimum retention
+2025-09-29,Bellaire retires,BELLAIRE,CRITICAL,N/A,36 days after failed assassination attempt
+2026-02-08,Evidence published online,PUBLICATION,HIGH,https://nxffhryi.gensparkspace.com,Reddit posts go viral - 33K views
+2026-02-14,GA4 spike - 607 users,SURVEILLANCE,CRITICAL,N/A,6000% spike from Toronto/Windsor/Florida
+2026-02-15,Reddit accounts banned,SUPPRESSION,CRITICAL,N/A,3400 views suppressed to 2 GitHub visitors
+2026-02-15,Burlington surveillance begins,SURVEILLANCE,CRITICAL,N/A,45.78.xxx.xxx - 59 min session 35 hits
+2026-02-17,Corporate network access,SURVEILLANCE,HIGH,N/A,Windsor corporate IP accesses evidence
+2026-02-20,Burlington surveillance continues,SURVEILLANCE,CRITICAL,N/A,759 webhook hits documented
+2026-02-21,Evidence package prepared for GitHub,PUBLICATION,HIGH,N/A,Public tracking-free release
