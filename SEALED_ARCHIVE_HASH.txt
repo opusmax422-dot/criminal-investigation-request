@@ -1,0 +1,59 @@
+# SEALED_ARCHIVE_HASH.txt
+# Francesco Longo Evidence Package — Original Archive Reference
+# Generated: February 22, 2026
+
+================================================================================
+ORIGINAL ARCHIVE INFORMATION
+================================================================================
+
+The complete UNREDACTED version of this evidence package (with all tracking
+mechanisms active) is preserved at:
+
+PRIMARY LOCATION:
+https://nxffhryi.gensparkspace.com
+
+CONTENTS OF ORIGINAL (not in this public release):
+- Active Google Analytics tracking
+- Active webhook beacons
+- Active canary tokens
+- Full IP addresses (not anonymized)
+- Precise GPS coordinates
+- Complete timestamps
+
+================================================================================
+PURPOSE
+================================================================================
+
+The original tracked archive is preserved for:
+
+1. Court discovery proceedings
+2. Federal/international investigations
+3. Chain-of-custody verification
+4. Proof of who accessed evidence and when
+
+================================================================================
+VERIFICATION
+================================================================================
+
+To verify this public release matches the original (minus tracking):
+
+1. Request original from: flongo11@gmail.com
+2. Compare all evidence content (exhibits, allegations, legal citations)
+3. Only difference should be removed tracking code and anonymized data
+
+================================================================================
+LEGAL NOTICE
+================================================================================
+
+This verification system supports admissibility under:
+- R. v. Andalib-Goortani (digital evidence authentication)
+- SS&C Technologies, 2024 ONCA 675 (spoliation doctrine)
+
+For court proceedings, the original tracked archive with full access logs
+can be subpoenaed from:
+
+Francesco Longo
+flongo11@gmail.com
++1 (226) 260-6399
+
+================================================================================
